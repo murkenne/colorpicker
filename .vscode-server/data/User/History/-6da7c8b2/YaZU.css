@@ -1,0 +1,332 @@
+/*Home page*/
+body {
+    margin: 0;
+    padding: 0;
+    /* background: url(https://tse1.mm.bing.net/th?id=OIP.pwdsxK__r59yYUU4_yorzAHaEK&pid=Api&P=0) no-repeat; */
+    background-size: cover;
+}
+
+.background-picture{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home_page{
+    width: 450px;
+    border-radius: 25%;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.home-img{
+    border-radius: 20%;
+    
+
+}
+
+.selection{
+    font-size: 19px;
+    position: relative;
+    top: -94px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.selection1{
+  font-size: 15px;
+}
+a:link { text-decoration: none;}
+a:hover{text-decoration: underline;}
+h1 {
+     font-size: 25px;     
+}
+
+header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -34px;
+}
+
+nav {
+    text-align:center ;
+}
+/*about me page*/
+
+body.page-1 {
+            background-color: brown;
+            
+        }
+.about_me{
+     padding-inline: 70px;
+     border: red;
+     border-radius: 9px;
+     padding-bottom: -90px; 
+     /* width: fit-content;
+    block-size: fit-content; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+   display: flex;
+     justify-content: center;
+    align-items: center; 
+     min-height: 100vh; 
+    background-color: brown;
+     margin-top: -79px; 
+     */
+
+}
+
+.about_intro{
+    display: flex;
+    justify-content: right;
+}
+.arizona{
+   
+  max-width: 50rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+} 
+.arizona_pic{
+    width: 300px;
+    float: left;
+    border-radius: 10px;
+    border: 3px black solid;
+    margin-right: 5px;
+    position: relative;
+    right: 30px;
+}
+
+.arizona h1{
+    align-content: center;
+    font-size: 32px;
+    
+}
+
+.arizona p {
+    font-size: 17px;
+    align-content: center;
+    position: relative;
+    
+}
+.arizona_link{
+    background-color: chartreuse;
+    border-radius: 19px;
+    font-size: 78px
+    /* position: relative;
+    left: 144px;
+    top: -84px; */
+}
+/*what I do in a day*/
+
+.amazon_pic{
+    width:200px;
+    border-radius: 10px;
+    float: right;
+
+}
+
+.amazon{
+    align-content: center;
+    font-size:17px ;
+}
+
+.fighter{
+    height: 10px;
+    position: relative;
+    right: -263px;
+    top: -94px;
+}
+
+@-webkit-keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  .hvr-wobble-horizontal {
+    position: relative;
+    left: -90px;
+    top: -22px;
+    width: 300px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(4px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+  }
+  
+  /*third topic "Pursuing goals*/
+.perfection{
+    position: relative;
+    top: -295px;
+}
+
+.perfection{
+    position: relative;
+    left: -233px;
+    margin: 150px auto;
+    width:70%;
+    font-size:17px ;
+
+} 
+.coding_pic{
+    width: 500px;
+    float: left;
+    border-radius: 50%;
+    border: 3px orangered solid;
+    margin-right: 15px;
+}
+
+.rich_ken{
+    width: 360px;
+    border-radius: 25%;
+    position: relative;
+    left: 276px;
+    bottom: -95px;
+}
+
+.bull_market{
+    width: 450px;
+    border-radius: 25%;
+    position: relative;
+    left: 204px;
+    bottom: 275px;
+    opacity: 100%;
+}
+.bull_market:hover{
+    opacity: 0.0;
+} 
+
+.selection1{
+    align-content: center;
+}
+/*Porfolio*/
+
+::before,::after{
+  box-sizing: border-box;
+}
+
+
+body.page-2 {
+  background-color: black;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+
+}
+.portfolio_c{
+    --skew-angle: 5deg;
+    position: relative;
+    isolation: isolate;
+    
+}
+.portfolio_c::after {
+    content: '';
+    background-image:linear-gradient(
+      45deg, #12c2E9, #c471ed, #f64f59
+    );    
+    position: absolute;
+    z-index: -1;
+    inset:0;
+    transform: skewY(var(--skew-angle));
+    
+}
+.wrapper {
+  max-width: 50rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.quote {
+  position: relative;
+  top: -800px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;;
+
+}
+.container{
+ font-size: 2rem;
+ text-align: center;
+}
+.section-title{
+  font-size: 2.25rem;
+}
+.footer{
+  display: grid;
+  justify-content: space-between;
+  position: relative;
+  top: -905px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+section{
+  padding-block: 5rem;
+  
+}
+

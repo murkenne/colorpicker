@@ -1,0 +1,54 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: green;
+}
+
+.items:nth-of-type(2) {
+   border: 5px black solid;
+    background-color: brown;
+    font-size: 32px;
+    color: rgb(202, 135, 35);
+    width: 820px;
+    margin-bottom: 10px;
+}
+.items {
+    border: 5px black solid;
+    width: 820px;
+    background-color: aqua;
+    font-size: 32px;
+    color: rgb(14, 14, 220);
+    margin-bottom: 10px;
+    margin-top: -6px;
+    
+}
+.pantry_foods {
+    background-color: bisque;
+    background-size: 50%;
+    border-top: 0px;
+    border-spacing: 0px;
+    width: 370px;
+    height: 300px;
+}
+.pantry_foods:nth-child(1){
+    position:relative; 
+    right: 60px;
+}
+
+img {
+    width: 300px;
+    position: relative;
+    left: 840px;
+    top: -620px;
+    padding-left: -45px; 
+}
+.image2 {
+    position: relative;
+    top: -130px;
+    margin-left: -440px;
+    width: 300px;
+    height: 290px;
+    
+}

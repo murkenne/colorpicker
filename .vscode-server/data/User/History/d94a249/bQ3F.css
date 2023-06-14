@@ -1,0 +1,53 @@
+.header {
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: green;
+}
+
+.items:first-of-type {
+   border: 5px black solid;
+    background-color: brown;
+    font-size: 32px;
+    color: rgb(202, 135, 35);
+    width: 800px;
+
+}
+.items:nth-of-type(2) {
+    border: 5px black solid;
+    width: 800px;
+    background-color: aqua;
+    font-size: 32px;
+    color: rgb(14, 14, 220);
+
+}
+.items.items:nth-of-type(2){
+    align-content: center;
+}
+
+
+.canned {
+    background-color: bisque;
+    border-top: 0px;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+}
+.veggies {
+    background-color: yellow;
+    background-size: 50%;
+    box-sizing: content-box;
+    margin-right: 12ch;
+}
+.snacks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dry_goods{
+    list-style-position: inherit;
+}
+.dry_foods {
+    display: flex;
+    justify-content: space-around ;
+}

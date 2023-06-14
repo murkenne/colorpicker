@@ -1,0 +1,15 @@
+#form-body{
+    width: 67.5vw;
+    height: 90vw;
+}
+#form {
+    width: 67.5vw;
+    height: 90vw;
+    background: url(https://hips.hearstapps.com/hmg-prod/images/graphic-illustration-of-the-earth-and-the-sun-royalty-free-image-1679061019.jpg);
+    background-color:silver;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    
+}

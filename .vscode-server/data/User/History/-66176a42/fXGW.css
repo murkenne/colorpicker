@@ -1,0 +1,14 @@
+#form-body{
+    width: 67.5vw;
+    height: 90vw;
+}
+#form {
+    width: 67.5vw;
+    height: 90vw;
+    background: fixed;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    
+}

@@ -1,0 +1,19 @@
+2023-06-13 18:36:49.850 [info] 
+
+
+
+
+2023-06-13 18:36:49.885 [info] Extension host agent started.
+2023-06-13 18:36:50.189 [info] [127.0.0.1][255542ab][ManagementConnection] New connection established.
+2023-06-13 18:36:50.530 [info] [127.0.0.1][62a36ef1][ExtensionHostConnection] New connection established.
+2023-06-13 18:36:51.216 [info] [127.0.0.1][62a36ef1][ExtensionHostConnection] <387> Launched Extension Host Process.
+2023-06-13 18:36:56.715 [info] Getting Manifest... ms-vscode.js-debug-nightly
+2023-06-13 18:36:57.276 [info] Installing extension: ms-vscode.js-debug-nightly
+2023-06-13 18:37:04.710 [info] Extension signature is verified: ms-vscode.js-debug-nightly
+2023-06-13 18:37:04.881 [info] Extracted extension to /home/murkenne/.vscode-server/extensions/.d0fb806d-2570-494f-b7db-dff1c0a75ec8: ms-vscode.js-debug-nightly
+2023-06-13 18:37:04.898 [info] Renamed to /home/murkenne/.vscode-server/extensions/ms-vscode.js-debug-nightly-2023.6.1315
+2023-06-13 18:37:04.905 [info] Extracting extension completed. ms-vscode.js-debug-nightly
+2023-06-13 18:37:04.916 [info] Extension installed successfully: ms-vscode.js-debug-nightly
+2023-06-13 18:37:04.936 [info] Marked extension as uninstalled ms-vscode.js-debug-nightly-2023.6.917
+2023-06-13 18:37:13.156 [info] [127.0.0.1][255542ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-13 18:37:13.189 [info] [127.0.0.1][62a36ef1][ExtensionHostConnection] <387> Extension Host Process exited with code: 0, signal: null.

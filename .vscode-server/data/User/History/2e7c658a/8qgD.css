@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+h1 {
+
+    color: blue;
+}
+
+
+#party-container, #party-message {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#party-container {
+    font-size: 1.3rem;
+  
+  
+  }
+
+#party-container:hover {
+    background-color: #202f3f;
+    color: #53adff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    }

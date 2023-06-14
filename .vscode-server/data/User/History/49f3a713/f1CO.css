@@ -1,0 +1,10 @@
+body{
+    background-color: burlywood;
+    border-radius: 5%;
+}
+
+.bet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

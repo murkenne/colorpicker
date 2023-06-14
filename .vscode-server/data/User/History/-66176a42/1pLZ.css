@@ -1,0 +1,36 @@
+/*use of background and important*/
+body {
+    width: 67.5vw;
+    height: 90vw;
+    margin: 0px!important;
+    padding: 0px;
+    background: url(https://ichef.bbci.co.uk/images/ic/480xn/p0222n9d.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+}
+/*use of background and important*/
+#form-body{
+    width: 67.5vw;
+    height: 90vw;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://ichef.bbci.co.uk/images/ic/480xn/p0222n9d.jpg) no-repeat;
+    background-size: cover;
+}
+
+#form {
+    width: 67.5vw;
+    height: 90vw;
+    background: url(https://ichef.bbci.co.uk/images/ic/480xn/p0222n9d.jpg) no-repeat;
+    background-size: cover;
+    background-color:silver;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.header-contact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}

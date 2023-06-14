@@ -1,0 +1,237 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+@media(max-width:100%){
+    .container{
+        margin:0 auto; 
+        padding: 0;
+    }
+}
+.container{
+    height: 500px;
+    width: 350px;
+    background-color: #a20594;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.dog{
+    position: relative;
+    top: 150px;
+    left: 50px
+}
+.face{
+    background-color: #d2873b;
+    height: 80px;
+    width: 120px;
+    border-radius: 35px;
+}
+.ear{
+    position: absolute;
+    background: orangered;
+    z-index: 1;
+}
+.ear::before,
+.ear::after{
+    content: '';
+    position: inherit;
+    background: inherit;
+}
+.ear,
+.ear::before,
+.ear::after{
+    width: 20px;
+    height: 30px;
+    border-top-right-radius: 30%;
+}
+.ear{
+    transform: rotate(-60deg) skewX(-30deg) scale(1, .866)
+}
+.ear::before{
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+.ear::after{
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.ear-container{
+    position: absolute;
+    left: 74px;
+    top: -25px;
+    z-index: 1;
+
+}
+.ear-left{
+    position: absolute;
+    left: 74px;
+    top: -25px;
+    z-index: 1;
+}
+.ear-right{
+    position: absolute;
+    right: 330px;
+    top: -21px;
+}
+
+.nose::before{
+    content: '';
+    width: 24px;
+    height: 10px;
+    background: black;
+    border-radius: 20% 20% 50% / 25% 25% 70% 70%;
+    position: absolute;
+    position: absolute;
+    left: 12;
+    right: 283px;
+    bottom: 65px;
+    margin: auto;
+    z-index: 1;
+}
+.eye-l,.eye-r{
+    background-color:#d2873b;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.eye-l{
+    bottom: 60px;
+    left: 22px;
+}
+.eye-r{
+    bottom: 85px;
+    left: 75px;
+}
+
+.eyeball{
+    background-color: lightgreen;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+    left: 80px;
+    z-index: 1;
+}
+.eyeball-1{
+    background-color: lightgreen;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    right: -26px;
+    z-index: 1;
+}
+
+.dot{
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+}
+.dot-1{
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    right: -3px;
+    z-index: 1;
+}
+.mouth{
+    width: 15%;
+    height: 5%;
+    border: 3px solid black;
+    border-radius: 50%;
+    top: 13%;
+    left: 22%;
+    clip-path: polygon( 0% 55% , 100% 55% , 100% 100%, 0% 100%);
+    position: relative;
+}
+.tongue{
+    width: 8%;
+    height: 8%;
+    border: 3px solid black;
+    border-radius:50%;
+    position: relative;
+    top: 8%;
+    left: 26%;
+    clip-path: polygon(0% 55% , 100% 55% , 100% 100%, 0% 100%);
+}
+.tongue-1{
+    width: 8%;
+    height: 8%;
+    border: 3px solid black;
+    border-radius:50%;
+    position: relative;
+    top: -2%;
+    left: 26%;
+    clip-path: polygon(0% 55% , 100% 55% , 100% 100%, 0% 100%);
+}
+.tongue-2{
+
+        width: 27px;
+        height: 23px;
+        background: pink;
+        border-radius: 20% 20% 50% / 25% 25% 70% 70%;
+        position: absolute;
+        position: absolute;
+        left: 12;
+        right: 228px;
+        bottom: 255px;
+        margin: auto;
+        z-index: 1;
+    }
+    .body{
+        background-color: #d2873b;
+        height: 120px;
+        width: 100px;
+        position: relative;
+        left: 550px;
+        bottom: -250px;
+        border-radius: 0 65px 0 0;
+    }
+    .paw-l,.paw-r{
+        background-color: #d2873b;
+        height: 10px;
+        width: 22px;
+        position: relative;
+        border-radius: 0 0px 10px 10px;
+        
+    }
+    .paw-l{
+        top: 250px;
+        left: 220px;
+    }
+    .paw-r{
+        top: 239px;
+        left: 170px;
+    }
+    .tail{
+        background-color: #d2873b;
+        width: 100px;
+        height: 20px;
+        position: relative;
+        top: 210px;
+        left: 199px;
+        border-radius: 0 20px 20px 0;
+    }
+#form {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    
+      
+    }

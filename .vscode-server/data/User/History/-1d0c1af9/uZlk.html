@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Confirmation form</h1>
+    <form>
+        <label>First Name
+            <input type="text" name="name"> 
+        </label>
+        <br>
+        <label>Last Name
+            <input type="text" name="name"> 
+        </label>
+        <br>
+        <label for="phone">Phone Number
+            <input type="tel" id="phone" name="phone">
+        </label>
+            <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="john@example.com">
+            <br>
+            <label>Are you under 18?:</label>
+            <input type="radio" id="under_18" value="under_18" name="custmoer_age">
+            <label for="under_18" class="light">Yes </label>
+
+            <label></label>
+            <input type="radio" id="over_18" value="over_18" name="custmoer_age">
+            <label for="over_18" class="light">No </label>
+
+        <input type="submit" name="submit" value="Submit Form">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color: burlywood;
+    border-radius: 5%;
+}
+main{
+    margin: auto;
+}
+.bet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bacon{
+    display: flex;
+}

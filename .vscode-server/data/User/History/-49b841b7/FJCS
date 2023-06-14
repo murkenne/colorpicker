@@ -1,0 +1,49 @@
+/*const timmy = {
+    prescription: "acetaminophen",
+    pricePerRefill: 25,
+    refills: 3,
+    subscription: false,
+    coupon: true,
+};
+
+const sarah = {
+    prescription: "diphenhydramine",
+    pricePerRefill: 50,
+    refills: 1,
+    subscription: true,
+    coupon: false,
+}
+
+const rocky = {
+    prescription: "phenylephrine",
+    pricePerRefill: 30,
+    refills: 5,
+    subscription: true,
+    coupon: true,
+}*/
+
+function subscription(refill,sub){
+//const subArray= ["sarah","rocky"];
+  //const coupArray= ["timmy", "rocky"];
+  return refill * sub;
+}
+const timmy =subscription(50,.25);
+const rocky= subscription(150,.25);
+
+let afterSub=[75,37.5,112.5]
+function coupon(total) {
+//let afterSub=[75,37.5,112.5]
+//let coupArray= ["timmy","rocky"];
+  return total- 10;
+}
+const timmysub= coupon(75);
+const rockysub= coupon(112.5);
+
+function grandTotal(name) {
+   //timmy= 65;
+   //sarah= 37.5;
+   //rocky= 112.5;
+  console.log(name+ "your grand total is.")
+  
+}
+grandTotal()

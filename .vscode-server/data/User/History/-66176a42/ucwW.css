@@ -1,0 +1,15 @@
+#form-body{
+    width: 67.5vw;
+    height: 90vw;
+}
+#form {
+    width: 67.5vw;
+    height: 90vw;
+    background: url(https://ichef.bbci.co.uk/images/ic/480xn/p0222n9d.jpg) repeat:none;
+    background-color:silver;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    
+}

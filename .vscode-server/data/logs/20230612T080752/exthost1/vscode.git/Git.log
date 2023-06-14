@@ -1,0 +1,41 @@
+2023-06-12 08:07:56.065 [info] Log level: Info
+2023-06-12 08:07:56.065 [info] Validating found git in: "git"
+2023-06-12 08:07:56.065 [info] Using git "2.34.1" from "git"
+2023-06-12 08:07:56.065 [info] > git rev-parse --show-toplevel [13ms]
+2023-06-12 08:07:56.065 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-06-12 08:07:56.065 [info] Open repository: /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter
+2023-06-12 08:07:56.065 [info] > git config --get commit.template [14ms]
+2023-06-12 08:07:56.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-06-12 08:07:56.065 [info] > git status -z -uall --find-renames=50% [8ms]
+2023-06-12 08:07:56.065 [info] > git config --get commit.template [104ms]
+2023-06-12 08:07:56.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [627ms]
+2023-06-12 08:07:56.066 [info] > git check-ignore -v -z --stdin [48ms]
+2023-06-12 08:07:56.068 [info] > git status -z -uall --find-renames=50% [5ms]
+2023-06-12 08:07:56.109 [info] > git show --textconv :script.js [17ms]
+2023-06-12 08:07:56.109 [info] > git ls-files --stage -- /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter/script.js [7ms]
+2023-06-12 08:07:56.122 [info] > git cat-file -s 1353b460b894ba21a8c5e818c7bf4e121bd491f2 [5ms]
+2023-06-12 08:08:25.556 [info] > git fetch [766ms]
+2023-06-12 08:08:25.556 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/murkenne/Unit2.PartyLogs.Starter.git/'
+2023-06-12 08:08:25.564 [info] > git config --get commit.template [2ms]
+2023-06-12 08:08:25.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 08:08:25.576 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 08:08:25.989 [info] > git ls-files --stage -- /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter/script.js [1ms]
+2023-06-12 08:08:25.995 [info] > git cat-file -s 1353b460b894ba21a8c5e818c7bf4e121bd491f2 [0ms]
+2023-06-12 08:08:26.008 [info] > git show --textconv :script.js [0ms]
+2023-06-12 08:16:29.840 [info] > git config --get commit.template [1ms]
+2023-06-12 08:16:29.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 08:16:29.868 [info] > git status -z -uall --find-renames=50% [5ms]
+2023-06-12 08:17:10.780 [info] > git config --get commit.template [3ms]
+2023-06-12 08:17:10.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 08:17:10.795 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 08:27:19.087 [info] > git config --get commit.template [11ms]
+2023-06-12 08:27:19.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-06-12 08:27:19.100 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 08:31:49.380 [info] > git config --get commit.template [1ms]
+2023-06-12 08:31:49.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-12 08:31:49.404 [info] > git status -z -uall --find-renames=50% [2ms]

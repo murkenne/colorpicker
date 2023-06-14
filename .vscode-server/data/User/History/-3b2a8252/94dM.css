@@ -1,0 +1,26 @@
+body{
+    background-color:#FEE4D1;
+}
+#main-container{
+    padding: 40px;
+    background-color: #efefef;
+}
+
+.main-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content h1, h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.headline{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}

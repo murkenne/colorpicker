@@ -1,0 +1,9 @@
+body{
+    background-color: burlywood;
+    border-radius: 5%;
+}
+
+.bet{
+    display: flex;
+    flex-direction: column;
+}
