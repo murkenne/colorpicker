@@ -7,3 +7,7 @@
 2023-06-13 19:49:47.285 [info] [127.0.0.1][6e574ae6][ManagementConnection] New connection established.
 2023-06-13 19:49:48.179 [info] [127.0.0.1][bc6590fb][ExtensionHostConnection] New connection established.
 2023-06-13 19:49:48.184 [info] [127.0.0.1][bc6590fb][ExtensionHostConnection] <1339> Launched Extension Host Process.
+2023-06-13 20:37:52.672 [info] [127.0.0.1][bc6590fb][ExtensionHostConnection] The client has reconnected.
+2023-06-13 20:37:52.996 [info] [127.0.0.1][6e574ae6][ManagementConnection] The client has reconnected.
+2023-06-13 21:09:08.556 [info] [127.0.0.1][6e574ae6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-13 21:09:08.945 [info] [127.0.0.1][bc6590fb][ExtensionHostConnection] <1339> Extension Host Process exited with code: 0, signal: null.

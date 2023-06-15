@@ -1,0 +1,16 @@
+2023-06-14 10:53:45.934 [info] Extension host with pid 393 started
+2023-06-14 10:53:45.970 [info] Lock '/home/murkenne/.vscode-server/data/User/workspaceStorage/2f050227fba94d817638ac9279c5ca13/vscode.lock': Lock acquired.
+2023-06-14 10:53:46.003 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-14 10:53:46.005 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2023-06-14 10:53:46.282 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-14 10:53:46.296 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-06-14 10:53:46.371 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-14 10:53:46.372 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-14 10:53:47.068 [info] Eager extensions activated
+2023-06-14 10:53:47.068 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 10:53:47.069 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 10:53:47.069 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 10:53:47.153 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2023-06-14 11:49:39.497 [info] Extension host terminating: received terminate message from renderer
+2023-06-14 11:49:39.504 [info] Lock '/home/murkenne/.vscode-server/data/User/workspaceStorage/2f050227fba94d817638ac9279c5ca13/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-14 11:49:39.670 [info] Extension host with pid 393 exiting with code 0

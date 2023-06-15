@@ -1,0 +1,29 @@
+2023-06-15 15:55:37.053 [info] Log level: Info
+2023-06-15 15:55:37.053 [info] Validating found git in: "git"
+2023-06-15 15:55:37.053 [info] Using git "2.34.1" from "git"
+2023-06-15 15:55:37.053 [info] > git rev-parse --show-toplevel [50ms]
+2023-06-15 15:55:37.053 [info] > git rev-parse --git-dir --git-common-dir [397ms]
+2023-06-15 15:55:37.053 [info] Open repository: /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter
+2023-06-15 15:55:37.067 [info] > git config --get commit.template [7ms]
+2023-06-15 15:55:37.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-06-15 15:55:37.097 [info] > git status -z -uall [5ms]
+2023-06-15 15:55:37.119 [info] > git config --get commit.template [6ms]
+2023-06-15 15:55:37.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-15 15:55:37.136 [info] > git status -z -uall [1ms]
+2023-06-15 15:55:37.383 [info] > git show --textconv :index.html [14ms]
+2023-06-15 15:55:37.384 [info] > git ls-files --stage -- /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter/index.html [9ms]
+2023-06-15 15:55:37.390 [info] > git cat-file -s b96df21759e2a4acb48e1c01e784bb283a1d1766 [2ms]
+2023-06-15 15:55:37.589 [info] > git check-ignore -v -z --stdin [1ms]
+2023-06-15 15:55:42.071 [info] > git fetch [909ms]
+2023-06-15 15:55:42.071 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/murkenne/Unit2.PartyLogs.Starter.git/'
+2023-06-15 15:55:42.084 [info] > git config --get commit.template [3ms]
+2023-06-15 15:55:42.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-15 15:55:42.106 [info] > git status -z -uall [3ms]
+2023-06-15 15:55:42.376 [info] > git ls-files --stage -- /home/murkenne/coursework/block_22_workshop!/Unit2.PartyLogs.Starter/index.html [2ms]
+2023-06-15 15:55:42.387 [info] > git cat-file -s b96df21759e2a4acb48e1c01e784bb283a1d1766 [1ms]
+2023-06-15 15:55:42.405 [info] > git show --textconv :index.html [1ms]

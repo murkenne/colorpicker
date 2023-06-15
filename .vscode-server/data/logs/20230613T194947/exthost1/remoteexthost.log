@@ -15,3 +15,22 @@
 2023-06-13 19:54:20.510 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
 2023-06-13 19:58:03.982 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 2023-06-13 19:58:03.983 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-06-13 20:51:59.908 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-06-13 20:52:08.151 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-node'
+2023-06-13 20:52:08.151 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug-nightly, startup: false, activationEvent: 'onDebugResolve:pwa-node'
+2023-06-13 20:52:08.775 [error] Activating extension ms-vscode.js-debug-nightly failed due to an error:
+2023-06-13 20:52:08.776 [error] Error: command 'extension.js-debug.npmScript' already exists
+	at e.ExtHostCommands.registerCommand (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:100:129137)
+	at Object.registerCommand (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:118:23413)
+	at $e (/home/murkenne/.vscode-server/extensions/ms-vscode.js-debug-nightly-2023.6.1315/src/extension.js:67:10290)
+	at l_e (/home/murkenne/.vscode-server/extensions/ms-vscode.js-debug-nightly-2023.6.1315/src/extension.js:160:6382)
+	at Function.fb (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:114:14824)
+	at Function.eb (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:114:14527)
+	at /home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:114:12551
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async b.n (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:98:6644)
+	at async b.m (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:98:6607)
+	at async b.l (/home/murkenne/.vscode-server/bin/4cb974a7aed77a74c7813bdccd99ee0d04901215/out/vs/workbench/api/node/extensionHostProcess.js:98:6064)
+2023-06-13 21:09:08.570 [info] Extension host terminating: received terminate message from renderer
+2023-06-13 21:09:08.573 [info] Lock '/home/murkenne/.vscode-server/data/User/workspaceStorage/2f050227fba94d817638ac9279c5ca13/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-13 21:09:08.902 [info] Extension host with pid 1339 exiting with code 0
