@@ -1,0 +1,27 @@
+2023-06-15 19:30:16.455 [info] Log level: Info
+2023-06-15 19:30:16.455 [info] Validating found git in: "git"
+2023-06-15 19:30:16.455 [info] Using git "2.34.1" from "git"
+2023-06-15 19:30:16.455 [info] > git rev-parse --show-toplevel [10ms]
+2023-06-15 19:30:16.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-15 19:30:16.455 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-15 19:30:16.455 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-06-15 19:30:16.455 [info] Open repository: /home/murkenne
+2023-06-15 19:30:16.455 [info] > git config --get commit.template [2ms]
+2023-06-15 19:30:16.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-06-15 19:30:16.455 [info] > git status -z -uall [97ms]
+2023-06-15 19:30:16.455 [info] > git config --get commit.template [168ms]
+2023-06-15 19:30:16.456 [info] > git check-ignore -v -z --stdin [37ms]
+2023-06-15 19:30:16.458 [info] > git rev-parse --show-toplevel [8ms]
+2023-06-15 19:30:16.458 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-15 19:30:16.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-15 19:30:16.574 [info] > git status -z -uall [98ms]
+2023-06-15 19:30:26.305 [info] > git config --get commit.template [10ms]
+2023-06-15 19:30:26.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-15 19:30:26.391 [info] > git status -z -uall [77ms]
+2023-06-15 19:30:27.664 [info] > git fetch [1386ms]
+2023-06-15 19:30:27.674 [info] > git config --get commit.template [1ms]
+2023-06-15 19:30:27.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-15 19:30:27.786 [info] > git status -z -uall [93ms]
+2023-06-15 19:30:31.421 [info] > git config --get commit.template [2ms]
+2023-06-15 19:30:31.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-15 19:30:31.541 [info] > git status -z -uall [96ms]
